@@ -8,7 +8,7 @@ const Menubtn = document.getElementById("Menu")
 const Items = document.getElementById("Items")
 const Close = document.getElementById("fa-xmark")
 btn.addEventListener("click",()=>{
-    document.body.style = "background-color:black;color:white;transition:1s"
+    document.body.style = "background-color:white;color:black;transition:1s"
     btn.style = "display:none;transition:1s"
     btn2.style = "display:block;transition:1s"
     BackCL.style = "background-color:white"
@@ -17,7 +17,7 @@ btn.addEventListener("click",()=>{
     BackCL3.style = "background-color:white"
 })
 btn2.addEventListener("click",()=>{
-    document.body.style = "background-color:white;color:black;transition:1s"
+    document.body.style = "background-color:black;color:white;transition:1s"
     btn2.style = "display:none;transition:1s"
     btn.style = "display:block;transition:1s"
 })
